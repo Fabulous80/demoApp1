@@ -21,20 +21,17 @@ export default function App() {
   }
 
   function renderEncouragingText() {
-    if (count == 10) {
-      return "Keep Going";
-    }
-
-    if (count == 20) {
-      return "Press Faster";
-    }
-
-    if (count == 30) {
-      return "Hang In There!";
-    }
-
     if (count >= 40) {
       return "Fingers Not Tired?";
+    }
+    if (count >= 30) {
+      return "Hang In There!";
+    }
+    if (count >= 20) {
+      return "Press Faster!";
+    }
+    if (count >= 10) {
+      return "Keep Going";
     }
   }
 
