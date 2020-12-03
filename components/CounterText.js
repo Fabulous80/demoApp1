@@ -9,6 +9,7 @@ export default function CounterText(props) {
        {
          color: props.color,
          fontSize: props.fontSize,
+         marginBottom: props.marginBottom,
        }
      ]}>
        {props.children}

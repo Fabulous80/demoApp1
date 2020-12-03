@@ -38,10 +38,10 @@ export default function App() {
   return (
     <View style={styles.container}>
 
-      <CounterText color="lightgrey" fontSize={10}>{count}</CounterText>
-      <CounterText color="lightblue" fontSize={30}>{count}</CounterText>
-      <CounterText color="blue" fontSize={60}>{count}</CounterText>
-      <CounterText color="navy" fontSize={90}>{count}</CounterText>
+      <CounterText color="grey" marginBottom={20} fontSize={20}>{count}</CounterText>
+      <CounterText color="lightblue" marginBottom={10} fontSize={40}>{count}</CounterText>
+      <CounterText color="blue" marginBottom={10} fontSize={60}>{count}</CounterText>
+      <CounterText color="navy"marginBottom={0} fontSize={80}>{count}</CounterText>
 
       <TouchableOpacity onPress={increment} style={styles.button}>
         <Text style={styles.buttonText}>Add!</Text>
